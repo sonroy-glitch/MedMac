@@ -3,7 +3,7 @@
  * every page reads from this file.
  */
 export const site = {
-  name: 'MedMac',
+  name: 'Med-O-Mac',
   tagline: 'The hospital kiosk that takes a patient from vitals to the right doctor’s queue.',
 }
 

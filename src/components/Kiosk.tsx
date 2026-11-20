@@ -10,7 +10,7 @@ const keys = Array.from({ length: 12 }, (_, i) => ({ col: i % 3, row: Math.floor
 const grille = Array.from({ length: 24 }, (_, i) => ({ col: i % 8, row: Math.floor(i / 8) }))
 
 /**
- * The MedMac machine, drawn like a bank ATM: lit brand header, a hooded
+ * The Med-O-Mac machine, drawn like a bank ATM: lit brand header, a hooded
  * touchscreen, a slanted deck with keypad and fingertip sensor, a print slot,
  * a side cuff port and a plinth with a floor light. Whatever is passed as
  * children renders live inside the screen, sized in container units (cqw).
