@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-18T00:00:00Z",
+  "title": "Design System: MedMac",
+  "extensions": {
+    "colorMeta": {
+      "graphite-night": { "role": "neutral", "displayName": "Graphite Night", "canonical": "#07080a", "tonalRamp": ["#07080a", "#111317", "#1c1f24", "#2b2e35", "#454850", "#6b6e76", "#9c9ea5", "#d4d5d8"] },
+      "graphite-raised": { "role": "neutral", "displayName": "Graphite Raised", "canonical": "#111317", "tonalRamp": ["#07080a", "#111317", "#1c1f24", "#2b2e35", "#454850", "#6b6e76", "#9c9ea5", "#d4d5d8"] },
+      "slab-top": { "role": "neutral", "displayName": "Slab Top", "canonical": "#15181e", "tonalRamp": ["#0c0d10", "#15181e", "#20242c", "#2f343e", "#474d58", "#6c727e", "#9ba0aa", "#d2d5da"] },
+      "slab-bottom": { "role": "neutral", "displayName": "Slab Bottom", "canonical": "#0c0d10", "tonalRamp": ["#0c0d10", "#15181e", "#20242c", "#2f343e", "#474d58", "#6c727e", "#9ba0aa", "#d2d5da"] },
+      "bone": { "role": "neutral", "displayName": "Bone", "canonical": "#eceae4", "tonalRamp": ["#2a2925", "#45433e", "#64625b", "#86837c", "#a9a69f", "#c9c7c0", "#eceae4", "#f8f7f4"] },
+      "bone-dim": { "role": "neutral", "displayName": "Bone Dim", "canonical": "#9c9ea5", "tonalRamp": ["#1d1e21", "#33353a", "#4f5157", "#6f7178", "#9c9ea5", "#b8bac0", "#d4d5d9", "#eeeff1"] },
+      "kiosk-signal": { "role": "secondary", "displayName": "Kiosk Signal Blue", "canonical": "#4aa3ff", "tonalRamp": ["#05213f", "#0a3766", "#11508f", "#1c6dbd", "#4aa3ff", "#7dbcff", "#b0d6ff", "#e2f0ff"] },
+      "ember": { "role": "primary", "displayName": "Ember Gold", "canonical": "#e9a440", "tonalRamp": ["#2e1c05", "#4f300a", "#7a4a10", "#b8741c", "#e9a440", "#f0b867", "#f6d39f", "#fcefda"] },
+      "ember-deep": { "role": "primary", "displayName": "Ember Deep", "canonical": "#b8741c", "tonalRamp": ["#2e1c05", "#4f300a", "#7a4a10", "#b8741c", "#e9a440", "#f0b867", "#f6d39f", "#fcefda"] },
+      "ember-text-light": { "role": "primary", "displayName": "Burnt Ember", "canonical": "#8f500a", "tonalRamp": ["#2e1c05", "#4f300a", "#8f500a", "#b8741c", "#e9a440", "#f0b867", "#f6d39f", "#fcefda"] },
+      "ink": { "role": "neutral", "displayName": "Ink", "canonical": "#14161a", "tonalRamp": ["#07080a", "#14161a", "#22252b", "#353840", "#50545d", "#757982", "#a3a6ad", "#d6d8db"] },
+      "paper": { "role": "neutral", "displayName": "Paper", "canonical": "#f3efe7", "tonalRamp": ["#2d2a24", "#4a463e", "#6b665c", "#8f897e", "#b4aea2", "#d6d1c6", "#f3efe7", "#fbf9f5"] },
+      "holo": { "role": "tertiary", "displayName": "Hologram Cyan", "canonical": "#7fdbff", "tonalRamp": ["#032a3a", "#064560", "#0b6588", "#1e8ab2", "#46b5dd", "#7fdbff", "#b3eaff", "#e3f8ff"] },
+      "holo-deep": { "role": "tertiary", "displayName": "Holo Deep", "canonical": "#2f8cff", "tonalRamp": ["#041b3d", "#082e66", "#0f4592", "#1a62c4", "#2f8cff", "#6aaeff", "#a7cfff", "#dfeeff"] },
+      "holo-ground": { "role": "tertiary", "displayName": "Hologram Navy", "canonical": "#050d1c", "tonalRamp": ["#050d1c", "#0a1830", "#12264a", "#1e3a66", "#355684", "#5a7aa4", "#93aac2", "#e6f0fa"] },
+      "holo-raised": { "role": "tertiary", "displayName": "Hologram Navy Raised", "canonical": "#0a1830", "tonalRamp": ["#050d1c", "#0a1830", "#12264a", "#1e3a66", "#355684", "#5a7aa4", "#93aac2", "#e6f0fa"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Hero and Team headlines, page-transition words, giant flip-card numerals." },
+      "headline": { "displayName": "Headline", "purpose": "Section h2s, revealed by line." },
+      "title": { "displayName": "Title", "purpose": "Card titles, beat titles, department names." },
+      "body": { "displayName": "Body", "purpose": "Section ledes at 34 to 44ch in Bone Dim." },
+      "label": { "displayName": "Label", "purpose": "Uppercase footer column headings only; never a kicker above a headline." },
+      "script": { "displayName": "Script", "purpose": "All Indian-script text (greetings, language marquee, voice card)." }
+    },
+    "shadows": [
+      { "name": "slab", "value": "0 40px 80px -30px rgb(0 0 0 / 0.9), inset 0 1px 0 rgb(255 255 255 / 0.07)", "purpose": "Flow deck and Numbers flip cards." },
+      { "name": "slab-screen", "value": "0 30px 60px -24px rgb(0 0 0 / 0.9), inset 0 1px 0 rgb(255 255 255 / 0.08)", "purpose": "Screens fan cards." },
+      { "name": "glass-card", "value": "0 24px 50px -20px rgb(0 0 0 / 0.85)", "purpose": "Hero glass status cards, paired with backdrop-blur-xl." },
+      { "name": "pill", "value": "0 12px 32px -16px rgb(0 0 0 / 0.9)", "purpose": "Floating nav pills, paired with backdrop blur." },
+      { "name": "ember-glow", "value": "0 10px 30px -12px rgb(184 116 28 / 0.7)", "purpose": "Primary button only." },
+      { "name": "kiosk-drop", "value": "drop-shadow(0 40px 60px rgb(0 0 0 / 0.6))", "purpose": "The hero kiosk photo." }
+    ],
+    "motion": [
+      { "name": "ease-out (expo.out)", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "All entrances and reveals; CSS mirror --ease-out-expo." },
+      { "name": "ease-out-soft (power4.out)", "value": "power4.out", "purpose": "Softer entrances." },
+      { "name": "ease-in-out (expo.inOut)", "value": "expo.inOut", "purpose": "Page transitions." },
+      { "name": "funk", "value": "cubic-bezier(0.34, 1.32, 0.5, 1)", "purpose": "The one overshoot: nav dot, chips, magnets, queue token. Small pops only." },
+      { "name": "card-move", "value": "power2.in / power3.out / power3.inOut", "purpose": "Scrubbed card tosses and steps inside pinned sequences." },
+      { "name": "durations", "value": "0.25s / 0.5s / 0.9s / 1.3s / 1.8s", "purpose": "xs / sm / md / lg / xl." },
+      { "name": "stagger", "value": "char 0.022s, line 0.09s", "purpose": "Split-text reveals." },
+      { "name": "idle-float", "value": "hover-float 7s ease-in-out infinite, -10px", "purpose": "Hero cards idle, delays offset per card." }
+    ],
+    "breakpoints": [
+      { "name": "md", "value": "768px" },
+      { "name": "pin", "value": "900px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Ember pill for the one primary action per view.",
+      "html": "<button class=\"ds-btn-primary\">See it work <svg viewBox=\"0 0 16 16\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"M8 3v10M4 9l4 4 4-4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></button>",
+      "css": ".ds-btn-primary { display: inline-flex; align-items: center; gap: 12px; background: #e9a440; color: #14161a; border: none; border-radius: 9999px; padding: 16px 28px; font-family: Satoshi, ui-sans-serif, system-ui, sans-serif; font-size: 0.95rem; font-weight: 500; letter-spacing: -0.01em; box-shadow: 0 10px 30px -12px rgb(184 116 28 / 0.7); transition: background-color 0.3s, color 0.3s; cursor: pointer; } .ds-btn-primary:hover { background: #eceae4; color: #07080a; } .ds-btn-primary:focus-visible { outline: 2px solid #e9a440; outline-offset: 4px; }"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Hairline pill for the secondary route.",
+      "html": "<button class=\"ds-btn-ghost\">Who's building it <svg viewBox=\"0 0 16 16\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"M3 8h10M9 4l4 4-4 4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg></button>",
+      "css": ".ds-btn-ghost { display: inline-flex; align-items: center; gap: 12px; background: transparent; color: #eceae4; border: 1px solid rgb(236 234 228 / 0.1); border-radius: 9999px; padding: 16px 28px; font-family: Satoshi, ui-sans-serif, system-ui, sans-serif; font-size: 0.95rem; font-weight: 500; letter-spacing: -0.01em; transition: border-color 0.3s; cursor: pointer; } .ds-btn-ghost:hover { border-color: #eceae4; } .ds-btn-ghost:focus-visible { outline: 2px solid #e9a440; outline-offset: 4px; }"
+    },
+    {
+      "name": "Nav Pill",
+      "kind": "nav",
+      "refersTo": "nav-pill",
+      "description": "Floating glass pill with an ember dot on the active link.",
+      "html": "<nav class=\"ds-nav\"><a class=\"ds-nav-link is-current\" href=\"#\"><span class=\"ds-nav-dot\"></span>Product</a><a class=\"ds-nav-link\" href=\"#\"><span class=\"ds-nav-dot\"></span>Team</a></nav>",
+      "css": ".ds-nav { display: inline-flex; align-items: center; gap: 24px; padding: 0 20px; border: 1px solid rgb(236 234 228 / 0.1); border-radius: 9999px; background: rgb(17 19 23 / 0.7); backdrop-filter: blur(24px); box-shadow: 0 12px 32px -16px rgb(0 0 0 / 0.9); font-family: Satoshi, ui-sans-serif, system-ui, sans-serif; } .ds-nav-link { display: inline-flex; align-items: center; gap: 8px; padding: 8px 0; font-size: 0.875rem; color: #eceae4; text-decoration: none; } .ds-nav-dot { width: 6px; height: 6px; border-radius: 9999px; background: #e9a440; transform: scale(0); transition: transform 0.5s cubic-bezier(0.34, 1.32, 0.5, 1); } .ds-nav-link:hover .ds-nav-dot, .ds-nav-link.is-current .ds-nav-dot { transform: scale(1); } .ds-nav-link:focus-visible { outline: 2px solid #e9a440; outline-offset: 4px; border-radius: 2px; }"
+    },
+    {
+      "name": "Hero Glass Card",
+      "kind": "card",
+      "refersTo": "card-glass",
+      "description": "Glass status card dealt out of the kiosk screen.",
+      "html": "<div class=\"ds-glass\"><p class=\"ds-glass-head\"><svg viewBox=\"0 0 20 20\" width=\"16\" height=\"16\" aria-hidden=\"true\"><path d=\"M2 11h3.5l2-5 3 9 2.4-7 1.6 3H18\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg><span>Blood pressure</span></p><p class=\"ds-glass-figure\">118/76 <span>mmHg</span></p></div>",
+      "css": ".ds-glass { width: 13.5rem; padding: 16px; border: 1px solid rgb(255 255 255 / 0.1); border-radius: 18px; background: rgb(13 17 25 / 0.75); backdrop-filter: blur(24px); box-shadow: 0 24px 50px -20px rgb(0 0 0 / 0.85); color: #eceae4; font-family: Satoshi, ui-sans-serif, system-ui, sans-serif; font-size: 0.8rem; line-height: 1.375; } .ds-glass-head { display: flex; align-items: center; gap: 6px; margin: 0 0 8px; color: #4aa3ff; } .ds-glass-head span { color: #9c9ea5; } .ds-glass-figure { margin: 0; font-size: 1.9em; font-weight: 700; letter-spacing: -0.04em; line-height: 1; font-variant-numeric: tabular-nums; } .ds-glass-figure span { font-size: 0.42em; font-weight: 500; letter-spacing: 0; color: #9c9ea5; }"
+    },
+    {
+      "name": "Queue Token Card",
+      "kind": "card",
+      "refersTo": "card-glass",
+      "description": "The ember variant of the glass card: the one ember card in the hero hand.",
+      "html": "<div class=\"ds-glass-ember\"><p class=\"ds-ge-head\">Paid · in the queue</p><p class=\"ds-ge-row\"><span class=\"ds-ge-token\">A-17</span><span>3 ahead</span></p></div>",
+      "css": ".ds-glass-ember { width: 13.5rem; padding: 16px; border: 1px solid rgb(233 164 64 / 0.4); border-radius: 18px; background: rgb(20 17 12 / 0.8); backdrop-filter: blur(24px); box-shadow: 0 24px 50px -20px rgb(0 0 0 / 0.85); color: #eceae4; font-family: Satoshi, ui-sans-serif, system-ui, sans-serif; font-size: 0.8rem; } .ds-ge-head { margin: 0 0 8px; color: #9c9ea5; } .ds-ge-row { margin: 0; display: flex; align-items: baseline; justify-content: space-between; gap: 12px; color: #9c9ea5; } .ds-ge-token { font-size: 1.9em; font-weight: 700; letter-spacing: -0.04em; line-height: 1; color: #e9a440; font-variant-numeric: tabular-nums; }"
+    },
+    {
+      "name": "Card Slab",
+      "kind": "card",
+      "refersTo": "card-slab",
+      "description": "Graphite slab face for Flow beats and Numbers flip cards.",
+      "html": "<div class=\"ds-slab\"><span class=\"ds-slab-meta\"><span>MedMac</span><span>Illustrative</span></span><span><span class=\"ds-slab-num\">1</span><span class=\"ds-slab-cap\">stop instead of five counters</span></span></div>",
+      "css": ".ds-slab { display: flex; flex-direction: column; justify-content: space-between; aspect-ratio: 4 / 5; width: 18rem; padding: 2rem; border: 1px solid rgb(255 255 255 / 0.1); border-radius: 26px; background: linear-gradient(165deg, #15181e, #0c0d10); box-shadow: 0 40px 80px -30px rgb(0 0 0 / 0.9), inset 0 1px 0 rgb(255 255 255 / 0.07); color: #eceae4; font-family: Satoshi, ui-sans-serif, system-ui, sans-serif; transition: transform 0.7s cubic-bezier(0.16, 1, 0.3, 1); } .ds-slab:hover { transform: translateY(-8px); } .ds-slab-meta { display: flex; justify-content: space-between; font-size: 0.75rem; color: #9c9ea5; } .ds-slab-num { display: block; font-size: 6rem; font-weight: 700; letter-spacing: -0.04em; line-height: 0.85; } .ds-slab-cap { display: block; margin-top: 20px; max-width: 24ch; line-height: 1.375; color: #9c9ea5; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Dealt Hand in a Dark Showroom",
+    "overview": "A dim showroom at night. The ground is graphite, the text is bone, and the only ambient light is the kiosk's own blue edge glow, pooled in slow drifting halos. Every idea on the page arrives as a card: glass status cards dealt out of the kiosk screen, a hand of five screens that fans open, a six-card deck where each beat tosses the last card away, figures on cards that turn over. Cards are graphite or glass slabs with hairline edges and deep, soft black shadows.\n\nType is one family, Satoshi, set big, bold and tight; Noto Sans carries the Indian scripts. Warm ember gold is rationed: it marks the one thing to do or the one thing that is yours. The hologram section is the single place the world turns cyan on deep navy. Motion is GSAP: expo-out entrances, scrubbed pins for card moves, one overshoot reserved for small pops. The cursor is the system cursor.\n\nThe rejected default is the healthtech SaaS page: soft blue gradient washes, smiling-doctor stock photography, flat feature-card grids.\n\nThe hero raster src/assets/kiosk/medmac-kiosk.webp was supplied by the user. It shows the machine with \"AI Doctor\" branding on its screen and base, not \"MedMac\"; treat it as the user's product shot, not as a source of wordmark or palette.",
+    "keyCharacteristics": [
+      "Graphite night ground, bone text, never bright.",
+      "Cards as the unit of storytelling: dealt, fanned, tossed, flipped.",
+      "Ember gold rationed to one focal mark per view.",
+      "Kiosk blue as light (halos, pulse dots, card glyphs), never as a surface fill.",
+      "Satoshi everywhere, display set at 700 with -0.04em tracking.",
+      "Section themes swap the role tokens, never the markup."
+    ],
+    "rules": [
+      { "name": "The One Ember Rule", "body": "Ember fills appear on the primary CTA, the queue token, the active beat, and one card per hand. A second ember fill in the same view is a mistake.", "section": "colors" },
+      { "name": "The Light Not Paint Rule", "body": "Kiosk blue is emitted, not applied: halos, glows, dots and glyph strokes. It never fills a button, card or section.", "section": "colors" },
+      { "name": "The Role Swap Rule", "body": "Components use only the role tokens (ground, raised, fg, fg-dim, line, accent). A section or card changes world by adding .theme-dark, .theme-light, .theme-holo or .theme-ember, never by recoloring its children.", "section": "colors" },
+      { "name": "The Big and Tight Rule", "body": "Headings are 700 with negative tracking (-0.03em to -0.04em) and line-height under 1. Never set a heading light or loose.", "section": "typography" },
+      { "name": "The Tabular Figure Rule", "body": "Every vital, price, token and count uses tabular numerals (.numeric).", "section": "typography" },
+      { "name": "The Deep Shadow Rule", "body": "Shadows are black, long and soft, spread negative so they pool under the card. Colored shadow is reserved for the ember button.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do keep the ground graphite night and let the kiosk's blue halo be the brightest ambient light.",
+      "Do tell each idea as a card move: deal, fan, toss, flip.",
+      "Do spend ember on one focal mark per view: the CTA, the token, the active beat, one card per hand.",
+      "Do switch a section's world with a theme class and let role tokens do the recoloring.",
+      "Do set every heading in Satoshi 700, tight, and every Indian script in Noto Sans 500.",
+      "Do give every pinned or scrubbed move a reduced-motion end state."
+    ],
+    "donts": [
+      "Don't brighten the page: no light sections beyond the paper report card and the ember Pay card.",
+      "Don't use soft blue gradient washes, smiling-doctor stock imagery, or flat feature-card grids.",
+      "Don't fill surfaces with kiosk blue; it is light only.",
+      "Don't use the funk overshoot for large moves or entrances.",
+      "Don't replace the system cursor.",
+      "Don't put uppercase labels above headlines as kickers."
+    ]
+  }
+}
